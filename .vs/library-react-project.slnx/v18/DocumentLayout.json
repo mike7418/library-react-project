@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mike7\\source\\repos\\library-react-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\ui\\book.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\ui\\book.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\nav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\nav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\explore.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\explore.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\discounted.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\discounted.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|c:\\users\\mike7\\source\\repos\\library-react-project\\src\\components\\featured.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D6C7EC-8808-3AF0-CD56-12110D5935EE}|library-react-project.esproj|solutionrelative:src\\components\\featured.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Footer.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Footer.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Footer.jsx",
+              "RelativeToolTip": "src\\components\\Footer.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T05:12:59.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Explore.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Explore.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Explore.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Explore.jsx",
+              "RelativeToolTip": "src\\components\\Explore.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T04:50:02.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Discounted.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Discounted.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Discounted.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Discounted.jsx",
+              "RelativeToolTip": "src\\components\\Discounted.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T03:46:44.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T20:50:33.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Featured.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Featured.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Featured.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Featured.jsx",
+              "RelativeToolTip": "src\\components\\Featured.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T20:45:51.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\ui\\Book.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ui\\Book.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\ui\\Book.jsx",
+              "RelativeToolTip": "src\\components\\ui\\Book.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T21:06:11.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nav.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Nav.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Nav.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\components\\Nav.jsx",
+              "RelativeToolTip": "src\\components\\Nav.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T05:08:29.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Users\\mike7\\source\\repos\\library-react-project\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T20:50:22.12Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

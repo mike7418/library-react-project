@@ -4,10 +4,10 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Route } from 'react-router-dom'  
 import './App.css'
-import Home from './Pages/Home'
+import Home from './pages/Home'
 import Books from './components/Books'
 import { books } from './components/data'
-import BookInfo from './Pages/Bookinfo'
+import BookInfo from './pages/Bookinfo'
 
 function App() {
 

@@ -11,7 +11,7 @@ const Book = ({ book }) => {
                 </figure>
             </a>
             <div className="book__title">
-                <a href="/book" className="book__title--link">
+                <a href={`/books/${book.id}`} className="book__title--link">
                    {book.title}
                 </a>
             </div>

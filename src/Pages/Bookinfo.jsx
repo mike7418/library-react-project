@@ -1,12 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import Rating from '../components/ui/Rating';
+import { books } from '../components/data';
+import Price from '../components/ui/Price'
 
-const BookInfo = ({books}) => {
- 
+const BookInfo = ({bookID}) => {
+   
     return (        
         <div id="books__body">
-            <h1>Where am I</h1>
             <main id="books__main">
                 <div className="books__container">
                     <div className="row">
@@ -20,14 +22,27 @@ const BookInfo = ({books}) => {
                         </div>
                         <div className="book__selected">
                             <figure className="book__selected--figure">
-                                <img src={books.url} alt="" className="book__selected--img" />
+                                <img src='https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg' alt="" className="book__selected--img" />
                             </figure>
-                        </div>
-                        <div className="book__selected--description">
-                            <h2 className="book__selected--title">{books.title}</h2>
-                            <FontAwesomeIcon icon="star" />
+                            <div lassName="book__selected--description">
+                            <h2 className="book__selected--title">
+                                Crack the Coding Interview
+                            </h2>
+                            <Rating rating="4.5" />
+                            <div className="book__selected--price">
+                                <Price salePrice ='14' originalPrice = '70'  />
+                            </div>
+                            <div className="book__summary">
+                                <div className="book__summary--title">
+                                    Summary
+                                </div>
+                                <p className="book__summary--para">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </main>
         </div>

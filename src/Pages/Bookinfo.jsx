@@ -6,7 +6,8 @@ import Price from '../components/ui/Price'
 
 const BookInfo = ({books}) => {
    const { id } = useParams();
-   console.log({id});
+   const book = books.find(book => book.id = id);
+   console.log(book)
     return (        
         <div id="books__body">
             <main id="books__main">
@@ -22,15 +23,15 @@ const BookInfo = ({books}) => {
                         </div>
                         <div className="book__selected">
                             <figure className="book__selected--figure">
-                                <img src='https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg' alt="" className="book__selected--img" />
+                                <img src={book.url} alt="" className="book__selected--img" />
                             </figure>
                             <div className="book__selected--description">
                             <h2 className="book__selected--title">
-                                Crack the Coding Interview
+                                {book.title}
                             </h2>
-                            <Rating rating="4.5" />
+                            <Rating rating={book.rating} />
                             <div className="book__selected--price">
-                                <Price salePrice ='14' originalPrice = '70'  />
+                                <Price salePrice ={book.salePrice} originalPrice = {book.originalPrice}  />
                             </div>
                             <div className="book__summary">
                                 <div className="book__summary--title">

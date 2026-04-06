@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 import Price from './Price';
@@ -24,7 +23,7 @@ const Book = ({ book }) => {
             </div>
             <div className="book__price">
                 <Price salePrice={book.salePrice} originalPrice={book.originalPrice} />
-            </div>
+             </div>
         </div>
     );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Rating from '../components/ui/Rating';
-import { books } from '../components/data';
 import Price from '../components/ui/Price'
 
-const BookInfo = ({bookID}) => {
-   
+const BookInfo = ({books}) => {
+   const { id } = useParams();
+   console.log(id)
     return (        
         <div id="books__body">
             <main id="books__main">
@@ -24,7 +24,7 @@ const BookInfo = ({bookID}) => {
                             <figure className="book__selected--figure">
                                 <img src='https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg' alt="" className="book__selected--img" />
                             </figure>
-                            <div lassName="book__selected--description">
+                            <div className="book__selected--description">
                             <h2 className="book__selected--title">
                                 Crack the Coding Interview
                             </h2>
@@ -39,13 +39,28 @@ const BookInfo = ({bookID}) => {
                                 <p className="book__summary--para">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
+                                <p className="book__summary--para">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
                             </div>
+                            <button className="btn">
+                                Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
                 </div>
+                 <div className="books__container">
+                    <div className="row">
+                        <div className="book__selected--top">
+                            <div className="book__selected--title--top">
+                                Recommended Books 
+                            </div>
+                        </div>
+                    </div>
+                 </div>
             </main>
-        </div>
+        </div> 
     )
 };
 

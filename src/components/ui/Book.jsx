@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Rating from './Rating';
 import Price from './Price';
 
+
 const Book = ({ book }) => {
     return (
         

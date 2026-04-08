@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cart = () => {
+const Cart = ({ cart, changeQuantity }) => {
     return (
         <div className="books__body">
             <main className="books__main">
@@ -16,20 +16,23 @@ const Cart = () => {
                                 <div className="cart__total">Price</div>
                             </div>
                             <div className="cart__body">
-                                <div className="cart__item">
+                                {cart.map((book) => {
+                                    return(
+                                        <div className="cart__item">
                                     <div className="cart__book">
-                                        <img src="https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg" alt="" className="cart__book--img" />
+                                        <img src={book.url} alt="" className="cart__book--img" />
                                         <div className="cart__book--info">
-                                            <span className="cart__book--title">Crack the coding interview</span>
-                                            <span className="cart__book--price">$10.00</span>
+                                            <span className="cart__book--title">{book.title}</span>
+                                            <span className="cart__book--price">{(book.salePrice || book.originalPrice).toFixed(2)}</span>
                                             <button className="cart__book--remove">Remove</button>
                                         </div>
                                     </div>
                                     <div className="cart__quantity">
-                                        <input type="number" min={0} max={99} className="cart__input" />
+                                        <input type="number" min={0} max={99} className="cart__input" value={book.quantity} onChange={(event) => changeQuantity(book, event.target.value)}/>
                                     </div>
                                     <div className="cart__total">$10.00</div>
                                 </div>
+                                    )})}
                             </div>
                         </div>
                         <div className="total">

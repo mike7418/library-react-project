@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, useParams } from 'react-router-dom';
 import Rating from '../components/ui/Rating';
 import Price from '../components/ui/Price';
 import Book from '../components/ui/Book';
 
-const BookInfo = ({books}) => {
+const BookInfo = ({books, addToCart, cart}) => {
    const { id } = useParams();
    const book = books.find(book => +book.id === +id);
+
+   function addBookToCart(book) { 
+    addToCart(book);
+   }
+
+   function itemExists() {
+    return cart.find(book => book.id === +id);
+   }
     return (        
         <div id="books__body">
             <main id="books__main">
@@ -44,9 +52,16 @@ const BookInfo = ({books}) => {
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                             </div>
-                            <button className="btn">
-                                Add to Cart
-                            </button>
+                            {itemExists() ? (
+                                <Link to={'/cart'} className='book__link'>
+                                <button className="btn">Checkout</button>
+                                </Link>
+                            ) : (
+                                 <button className="btn" onClick={() => addBookToCart(book)}>
+                                    Add to Cart
+                                </button>
+                            )}
+                           
                         </div>
                     </div>
                 </div>
@@ -57,15 +72,15 @@ const BookInfo = ({books}) => {
                             <h2 className="book__selected--title--top">
                                 Recommended Books 
                             </h2>
-                            <div className="books">
+                        </div>
+                        <div className="books">
                                 {books
                                 .filter((book) => book.rating === 5 && +book.id !== +id)
                                 .slice(0,4)
                                 .map((book) => (
                                 <Book book={book} key={book.id} />
                                 ))}
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                  </div>
             </main>

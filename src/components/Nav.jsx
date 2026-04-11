@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Nav = () => {
+const Nav = ({itemsInCart}) => {
     function openMenu() {
         document.body.classList += " menu--open";
     }
@@ -23,7 +23,10 @@ const Nav = () => {
                     <li className="nav__list"><Link to="/books" className="nav__link">Books</Link></li>
                     <button className="btn__menu" onClick={openMenu}><FontAwesomeIcon icon="bars" /></button>
                     <li className="nav__icon"><Link to="/cart" className="nav__link"><FontAwesomeIcon icon="shopping-cart" /></Link>
-                        <span className="cart__length">6</span>
+                    {
+                        itemsInCart > 0 &&  <span className="cart__length">{itemsInCart}</span>
+                    }
+                       
                     </li>                    
                 </ul>
                 <div className="menu__backdrop">

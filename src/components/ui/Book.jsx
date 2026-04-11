@@ -1,17 +1,27 @@
-import React, { useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 import Price from './Price';
 
 
 const Book = ({ book }) => { 
-    const [img, setImg] = useState();
+    const [img, setImg] = useState(null);
+
+    const mountedRef = useRef(true);
 
     useEffect(() => {
         const image = new Image();
         image.src = book.url 
-        image.onLoad = () => {
-                setImg(image);  
+        image.onload = () => {
+            setTimeout(() => {
+                if (mountedRef.current) {
+                    setImg(image); 
+                }
+            }, 300);
+           
+        };
+        return () => {
+            mountedRef.current = false;
         }
     })
 
@@ -25,8 +35,7 @@ const Book = ({ book }) => {
                                 <img 
                                      src={img.src} 
                                     alt="" 
-                                    className="book__img" 
-                                    onLoad={imageLoaded} />
+                                    className="book__img" />
                         </figure>
                     </Link>
                     <div className="book__title">

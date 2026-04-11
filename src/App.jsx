@@ -27,6 +27,7 @@ function App() {
       : item
     }))
   }
+  
 
   useEffect(() => {
     console.log(cart)
